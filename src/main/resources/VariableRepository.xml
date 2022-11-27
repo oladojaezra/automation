@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>
+    <feature name="default">
+        <variable name="username">
+            <value>abhishekgarg</value>
+        </variable>
+        <variable name="password">
+            <value>hello1</value>
+        </variable>
+    </feature>
+</variables>

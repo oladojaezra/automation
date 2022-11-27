@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <page name="home_page">
+        <uiElements>
+            <uiobject name="registerLink" locatorType="xpath">
+                <locator>//a[text()='Register']</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="login_home_page">
+        <uiElements>
+            <uiobject name="welcomeLabel" locatorType="xpath">
+                <locator>//h1</locator>
+            </uiobject>
+            <uiobject name="openNewAccount" locatorType="xpath">
+                <locator>//a[text()='Open New Account']</locator>
+            </uiobject>
+            <uiobject name="accountOverview" locatorType="xpath">
+                <locator>//a[text()='Accounts Overview']</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="sign_up">
+        <uiElements>
+            <uiobject name="firstName" locatorType="id">
+                <locator>customer.firstName</locator>
+            </uiobject>
+            <uiobject name="lastName" locatorType="id">
+                <locator>customer.lastName</locator>
+            </uiobject>
+            <uiobject name="address" locatorType="id">
+                <locator>customer.address.street</locator>
+            </uiobject>
+            <uiobject name="city" locatorType="id">
+                <locator>customer.address.city</locator>
+            </uiobject>
+            <uiobject name="state" locatorType="id">
+                <locator>customer.address.state</locator>
+            </uiobject>
+            <uiobject name="zipcode" locatorType="id">
+                <locator>customer.address.zipCode</locator>
+            </uiobject>
+            <uiobject name="phone" locatorType="id">
+                <locator>customer.phoneNumber</locator>
+            </uiobject>
+            <uiobject name="ssn" locatorType="id">
+                <locator>customer.ssn</locator>
+            </uiobject>
+            <uiobject name="username" locatorType="id">
+                <locator>customer.username</locator>
+            </uiobject>
+            <uiobject name="password" locatorType="id">
+                <locator>customer.password</locator>
+            </uiobject>
+            <uiobject name="confirmPassword" locatorType="id">
+                <locator>repeatedPassword</locator>
+            </uiobject>
+            <uiobject name="register" locatorType="xpath">
+                <locator>//input[@value='Register']</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="account_overview">
+        <uiElements>
+            <uiobject name="balanceAmount" locatorType="xpath">
+                <locator>//table[@id='accountTable']/tbody/tr[1]/td[2]</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+    <page name="open_new_account">
+        <uiElements>
+            <uiobject name="selectSavingAccount" locatorType="xpath">
+                <locator>//select[@id='type']</locator>
+            </uiobject>
+            <uiobject name="accountOpenButton" locatorType="xpath">
+                <locator>//input[@value='Open New Account']</locator>
+            </uiobject>
+            <uiobject name="newAccountId" locatorType="id">
+                <locator>newAccountId</locator>
+            </uiobject>
+        </uiElements>
+    </page>
+</pages>

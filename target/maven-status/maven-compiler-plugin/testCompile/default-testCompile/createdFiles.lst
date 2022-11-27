@@ -1,0 +1,6 @@
+automationTesting\runner\ReportImageGenerator.class
+automationTesting\pages\ParaBankHomePage.class
+automationTesting\pages\ParaBankSignUpPage.class
+automationTesting\pages\TopDocLoginPage.class
+automationTesting\common\AutomationWrapper.class
+automationTesting\runner\AutomationTestRunner.class

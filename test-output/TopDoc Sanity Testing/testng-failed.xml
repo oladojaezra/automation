@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TopDoc Sanity Testing]" data-provider-thread-count="5">
+  <test name="TopDoc(failed)">
+    <parameter name="environment" value="Chrome"/>
+    <classes>
+      <class name="automationTesting.runner.AutomationTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="setEnvironment"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="runFeature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- automationTesting.runner.AutomationTestRunner -->
+    </classes>
+  </test> <!-- TopDoc(failed) -->
+</suite> <!-- Failed suite [TopDoc Sanity Testing] -->
